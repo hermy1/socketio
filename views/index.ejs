@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="../../socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+  </head>
+  <body>
+    <main>
+        <h1>ChatterBOX</h1>
+        <ul id="messages"></ul> 
+        <form action="/" method="post" id="chatForm">
+          <input id="txt" type="text" placeholder="type message" />
+          <button id="submitButton">Send</button>
+        </form>
+    </main>
+
+	
+  </body>
+</html>
